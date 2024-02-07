@@ -1,6 +1,6 @@
 # Welcome to keyrblx's official documentation [UPDATED 2024]
 
-# ⚠️ Warning : This library is complex and is not intended for new users, if you are new you should consider the basic security library
+⚠️ Warning : This library is complex and is not intended for new users, if you are new you should consider the basic security library
 
 
 # How to setup the library ?
