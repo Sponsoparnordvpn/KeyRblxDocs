@@ -58,8 +58,12 @@ warn("Key is non-valid !")
 end
 ```
 In this case, we use HashLibrary and we hash your true data
+
 Then, we compare if the hashed data is equal to the decrypted data
-If it's true, then the user key is valid, else its non valid **or** an encryption error. For more details we recommend you to use the false data for more precison :
+
+If it's true, then the user key is valid, else its non valid **or** an encryption error. 
+
+For more details we recommend you to use the false data for more precison :
 ```lua
 local true = HashLibrary.sha1("YourTrueData")
 local false = HashLibrary.sha1("YourFalseData")
