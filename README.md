@@ -1,4 +1,4 @@
-# Welcome to keyrblx's official documentation [ UPDATED 2024 ]
+# Welcome to keyrblx's official documentation [UPDATED 2024]
 
 # ⚠️ Warning : This library is complex and is not intended for new users, if you are new you should consider the basic security library
 
@@ -20,11 +20,15 @@ TrueData = "any data",
 FalseData = "any data",
 })
 ```
-ApplicationName : Your current application name, which can be found on your dashboard
-AuthType : The way to use to whitelist users, we recommand clientid but you can put ip
-EncryptionKey : This is the key that is going to be used to encrypt the validation result, everything is allowed put putting lowercase is better
-TrueData : This is the data that is going to get encrypted when the user is whitelisted
-FalseData : This is the data that is going to get encrypted when the user is not whitelisted
+- ApplicationName : Your current application name, which can be found on your dashboard
+  
+- AuthType : The way to use to whitelist users, we recommand clientid but you can put ip
+  
+- EncryptionKey : This is the key that is going to be used to encrypt the validation result, everything is allowed put putting lowercase is better
+  
+- TrueData : This is the data that is going to get encrypted when the user is whitelisted
+  
+- FalseData : This is the data that is going to get encrypted when the user is not whitelisted
 
 # How to use the library ?
 
